@@ -64,7 +64,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3002;
+const PORT =  80 ;
 httpServer.listen(PORT, () => {
   console.log(`Drawing server running on port ${PORT}`);
 });
